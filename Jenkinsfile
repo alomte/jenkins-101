@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-                apt install fire
+                sudo apt install fire
                 '''
             }
         }
